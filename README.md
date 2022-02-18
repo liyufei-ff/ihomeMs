@@ -3,5 +3,5 @@
 - **技术要点：**
 - 使用go-micro和gin框架构建项目，go mod管理三方包依赖
 - 使用consul作为服务注册中心，grpc进行远程过程调用，protobuf作为grpc间数据交换格式
-- 使用gorm操作mysql数据库，redigo操作redis数据库
+- 使用gorm操作mysql数据库并自动建表，redigo操作redis数据库
 - 使用fastDFS加nginx进行图片的存储管理和通过网络访问
